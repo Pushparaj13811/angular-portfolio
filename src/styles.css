@@ -1,1 +1,53 @@
+:root {
+  --primary-color: #007bff; /* Bootstrap primary color */
+  --secondary-color: #6c757d; /* Bootstrap secondary color */
+  --success-color: #28a745; /* Bootstrap success color */
+  --danger-color: #dc3545; /* Bootstrap danger color */
+  --warning-color: #ffc107; /* Bootstrap warning color */
+  --info-color: #17a2b8; /* Bootstrap info color */
+  --light-color: #f8f9fa; /* Bootstrap light color */
+  --dark-color: #343a40; /* Bootstrap dark color */
+  --active-color: #0099ff; /* Bootstrap active color */
+  --black-color: #000000; /* Black color */
+}
+
 /* You can add global styles to this file, and also import other style files */
+.button {
+  background-color: var(--primary-color); /* Bootstrap primary color */
+  color: var(--light-color); /* Text color */
+  padding: 10px 20px; /* Padding for top/bottom and left/right */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+/* Hover effect */
+.button:hover {
+  background-color: var(--active-color); /* Darker shade for hover */
+  cursor: pointer;
+}
+
+/* Active effect */
+.button:active {
+  background-color: var(--success-color); /* Even darker shade when active */
+  transform: scale(0.98); /* Slight scale down effect */
+}
+
+/* Disabled state */
+.button:disabled {
+  background-color: var(--secondary-color); /* Gray background for disabled state */
+  cursor: not-allowed; /* Change cursor to not-allowed */
+  opacity: 0.7; /* Make it slightly transparent */
+}
+
+.link {
+  color: var(--dark-color); /* Bootstrap primary color */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease; /* Smooth transition for color */
+}
+.link:hover {
+  color: var(--black-color); /* Darker shade for hover */
+  cursor: pointer;
+}
