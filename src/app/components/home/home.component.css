@@ -1,0 +1,27 @@
+.intro {
+  background-color: #f9f9f9; /* Light background for better contrast */
+  border: 1px solid #e0e0e0; /* Subtle border for definition */
+  border-radius: 8px; /* Rounded corners for a modern look */
+  padding: 20px; /* Spacing inside the box */
+  max-width: 600px; /* Limit the width for better readability */
+  margin: 20px auto; /* Center the box on the page */
+  font-family: Arial, sans-serif; /* Clean and readable font */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.intro h1 {
+  color: #333; /* Darker color for the heading */
+  font-size: 2em; /* Larger font size for emphasis */
+  margin-bottom: 15px; /* Space below the heading */
+}
+
+.intro p {
+  color: #555; /* Softer color for body text */
+  line-height: 1.6; /* Improved line height for readability */
+  margin-bottom: 10px; /* Space between paragraphs */
+}
+
+.intro p strong {
+  color: #007bff; /* Accent color for emphasized text */
+  font-weight: bold; /* Ensure strong emphasis */
+}

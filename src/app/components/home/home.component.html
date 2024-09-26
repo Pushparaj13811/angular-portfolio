@@ -1,1 +1,21 @@
-<p>home works!</p>
+<div class="intro">
+  <h1>Introductions</h1>
+  <div class="intro" *ngFor="let item of introduction.items">
+    <div>
+      <p>
+        Hello! My name is <strong>{{ item.name }}</strong
+        >, and I am thrilled to share a little bit about myself with you. At
+        <strong>{{ item.age }}</strong> years old, I have gathered a wealth of
+        experiences that have shaped my perspective and ambitions.
+      </p>
+      <p>
+        Currently, I reside in the beautiful country of
+        <strong>{{ item.country }}</strong
+        >, known for its rich culture and diverse landscapes. My home is located
+        at <strong>{{ item.Address }}</strong
+        >, a place that I cherish for its warmth and welcoming community.
+      </p>
+      <p>Thank you for taking the time to learn more about me!</p>
+    </div>
+  </div>
+</div>
